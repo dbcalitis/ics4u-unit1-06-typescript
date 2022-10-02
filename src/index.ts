@@ -40,7 +40,7 @@ function Mean(arrayOfIntegers: number[]): number {
 function Median(arrayOfIntegers: number[]): number {
   let median = 0
 
-  const sortedArr = arrayOfIntegers.sort(function(a, b) {
+  const sortedArr = arrayOfIntegers.sort(function (a, b) {
     return a - b
   })
 
