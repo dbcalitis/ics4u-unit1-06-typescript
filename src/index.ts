@@ -21,8 +21,8 @@ function Mean(arrayOfIntegers: number[]): number {
   let mean = 0
   const arrLen = arrayOfIntegers.length
 
-  for (let i = 0; i < arrLen; i++) {
-    mean += arrayOfIntegers[i]
+  for (let count = 0; count < arrLen; count++) {
+    mean += arrayOfIntegers[count]
   }
 
   mean /= arrLen
@@ -40,7 +40,7 @@ function Mean(arrayOfIntegers: number[]): number {
 function Median(arrayOfIntegers: number[]): number {
   let median = 0
 
-  const sortedArr = arrayOfIntegers.sort(function (a, b) {
+  const sortedArr = arrayOfIntegers.sort(function(a, b) {
     return a - b
   })
 
@@ -112,8 +112,8 @@ newArray.pop()
 // Converts every number in the array into a data type number
 const numArray = []
 
-for (let i = 0; i < newArray.length; i++) {
-  numArray.push(Number(newArray[i]))
+for (let count = 0; count < newArray.length; count++) {
+  numArray.push(Number(newArray[count]))
 }
 
 console.log(numArray)
